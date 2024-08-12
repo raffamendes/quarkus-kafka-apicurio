@@ -1,0 +1,19 @@
+{
+  "namespace": "com.rmendes.model",
+  "type": "record",
+  "name": "Appointment",
+  "fields": [
+    {
+      "name": "motive",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "type": "string"
+    },
+    {
+      "name": "confirmed",
+      "type": "boolean"
+    }
+  ]
+}
